@@ -1,10 +1,14 @@
 body {
 	font-family:'Carrois Gothic', sans-serif;
-	font-size: 20px;
-	color: #000;
 	float: left;
 }
-h1 {
-	font-size: 40px;
 
+.site-title {
+	font-size: 60px;
+}
+
+.para1 {
+	width: 60%;
+	float: left;
+	color: orange;
 }
