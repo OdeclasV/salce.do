@@ -1,14 +1,52 @@
+html { 
+	margin: 2em 1em 0em 1em;
+}
+
+/** { 
+	border: 1px black solid;
+}*/
+
 body {
 	font-family:'Carrois Gothic', sans-serif;
 	float: left;
 }
 
 .site-title {
-	font-size: 60px;
+	font-size: 2em;
+	float: left;
+	margin: 0em 0em 0.75em 11em; 
 }
 
 .para1 {
 	width: 60%;
 	float: left;
-	color: orange;
+	font-size: 1em;
+	color: #ff7D33;
+	margin: 0em 0em 0.75em 14.7em; 
 }
+
+.profiles { 
+	float: left;
+	margin-left: 1em;
+}
+
+aside {
+	display: inline-block;
+}
+
+ul {
+	padding-left: 0.5em;
+}
+
+li {
+	list-style: none;
+}
+
+li a { 
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #ff7D33;
+}
+
