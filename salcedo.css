@@ -14,24 +14,32 @@ body {
 .site-title {
 	font-size: 2em;
 	float: left;
-	margin: 0em 0em 0.75em 11em; 
+	margin: 0em 0em 0.75em 2em; 
+}
+.title-vic {
+	border-bottom: 1px solid black;
+	padding-bottom: .1em;
+
 }
 
 .para1 {
-	width: 60%;
+	width: 25%;
 	float: left;
+	clear: left;
 	font-size: 1em;
+	text-align: justify;
 	color: #ff7D33;
-	margin: 0em 0em 0.75em 14.7em; 
+	margin: 0em 0em 0.75em 4em; 
 }
 
 .profiles { 
 	float: left;
-	margin-left: 1em;
+	margin-left: 40em;
 }
 
-aside {
+.contacts {
 	display: inline-block;
+	
 }
 
 ul {
