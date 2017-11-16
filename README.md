@@ -1,2 +1,2 @@
 # salce.do
-Victor Hugo Salcedo- personal page/ creation hub / testing for www.salce.do
+My personal site. Making changes and then publishing it to a personalized domain. 
