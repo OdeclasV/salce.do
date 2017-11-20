@@ -27,6 +27,7 @@
 footer {
 	grid-area = footer;
 }
+
 #container {
 	display: grid;
 /*	grid-template-columns: [first]30% [second]auto [third]30%;
