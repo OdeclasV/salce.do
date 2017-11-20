@@ -1,56 +1,38 @@
-html { 
-	margin: 2em 1em 0em 1em;
+
+/* makes browser calculate total size of the boxes */
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
 }
 
-body {
-	font-family:'Carrois Gothic', sans-serif;
-	float: left;
+.name {
+	grid-area = header;
 }
 
-.site-title {
-	font-size: 2em;
-	float: left;
-	margin: 0em 0em 0.75em 2em; 
-}
-.title-vic {
-	border-bottom: 1px solid black;
-	padding-bottom: .1em;
-
+.photo {
+	grid-area = photo;
 }
 
-.para1 {
-	width: 25%;
-	float: left;
-	clear: left;
-	font-size: 1em;
-	text-align: justify;
-	color: #ff7D33;
-	margin: 0em 0em 0.75em 4em; 
+.title {
+	grid-area = title;
 }
 
-.profiles { 
-	float: left;
-	margin-left: 40em;
+.main {
+	grid-area = experience;
 }
 
-.contacts {
-	display: inline-block;
-	
+footer {
+	grid-area = footer;
 }
 
-ul {
-	padding-left: 0.5em;
+#container {
+	display: grid;
+	grid-template-columns: [first]30% [second]auto [third]30%;
+	grid-template-rows: [row-1]25% [row-2]100px [row-3]auto;
+	grid-column-gap: 10px;
+    grid-row-gap: 15px;
 }
-
-li {
-	list-style: none;
-}
-
-li a { 
-	text-decoration: none;
-}
-
-a:hover { 
-	color: #ff7D33;
-}
-
