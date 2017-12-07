@@ -1,7 +1,8 @@
+
 /* makes browser calculate total size of the boxes */
 
 * {
-	-webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
@@ -9,12 +10,28 @@
 }
 
 #container {
-	display: grid;
-	grid-template-columns: [first]40% [second]auto;
-	grid-template-rows: [row-1]25% [row-2]25%;
-	grid-column-gap: 10px;
+    display: grid;
+    grid-template-columns: [first]40% [second]auto;
+    grid-template-rows: [row-1]25% [row-2]25%;
+    grid-column-gap: 10px;
     grid-row-gap: 15px;
     justify-items: start;
 }
 
+.Iknow {
+    width: 100px;
+    height: 22px;
+    background: #03A9F4;
+    transition: width 1s;
+}
+
+.Iknow:hover {
+    width: 200px;
+    text-decoration: underline;
+}
+
+img{
+    opacity: 0.8;
+    border-radius: 50px;
+}
 
